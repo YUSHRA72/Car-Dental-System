@@ -1,0 +1,55 @@
+car-rental-system/
+│
+├── src/
+│   └── com/
+│       └── carrentalsystem/
+│           ├── dao/
+│           │   ├── CarDAO.java
+│           │   ├── CustomerDAO.java
+│           │   ├── RentalDAO.java
+│           │   └── UserDAO.java
+│           │
+│           ├── model/
+│           │   ├── Car.java
+│           │   ├── Customer.java
+│           │   ├── Rental.java
+│           │   └── User.java
+│           │
+│           ├── util/
+│           │   └── DatabaseConnection.java
+│           │
+│           └── ui/
+│               ├── CarManagementPanel.java
+│               └── CustomerManagementPanel.java
+│
+├── resources/
+│   └── images/
+│       ├── background.jpg
+│       ├── background.webp
+│       ├── icon.jpg
+│       └── icon.webp
+│
+├── data/
+│   ├── active_rentals.dat
+│   ├── activity_log.txt
+│   ├── available_cars.dat
+│   ├── rental_history.dat
+│   └── user_profiles.dat
+│
+├── lib/
+│   └── (external dependencies if any)
+│
+├── database/
+│   └── car_rental_db.sql
+│
+├── scripts/
+│   ├── run.bat
+│   ├── RunSimpleDemo.bat
+│   ├── RunSimpleImageGUI.bat
+│   ├── RunWithImages.bat
+│   └── run_app.bat
+│
+├── .gitignore
+├── README.md
+└── build/
+    └── *.class (compiled Java classes)
